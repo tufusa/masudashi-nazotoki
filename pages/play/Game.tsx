@@ -1,4 +1,4 @@
-import React, { createRef } from "react"
+import React from "react"
 import Quiz from "./quiz"
 import "./Game.scss"
 import { quizzesInfoSource } from "./quizzes-info-source";

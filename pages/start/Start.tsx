@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "react-router-dom"
+import { Link, Outlet } from "react-router-dom"
 import "./Start.scss"
 
 function Start() {
@@ -7,6 +7,7 @@ function Start() {
     <div className="start">
       <Header />
       <Contens />
+      <Outlet />
     </div>
   )
 }
@@ -53,7 +54,7 @@ function GameDescription() {
 function GameStart() {
   return (
     <div className="gamestart">
-      <Link to="/masudashi-nazotoki/play">
+      <Link to="/play">
         <img src="images/masuda_start.png" />
       </Link>
     </div>

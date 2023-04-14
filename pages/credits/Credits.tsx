@@ -4,7 +4,6 @@ import "./Credits.scss"
 export const Credits = () => {
   return (
     <div className="Credits">
-      <Header />
       <CreditsText />
     </div>
   )
@@ -23,7 +22,7 @@ const CreditsText = () => {
     <div className="text">
       <h3>CREDITS</h3>
       <h4>制作</h4>
-      <p>j2015 鈴木 鷲也</p>
+      <p>Tungsten</p>
       <br />
       <p>以下 敬称略</p>
       <h4>紹介させていただいた場所・人物・事柄</h4>

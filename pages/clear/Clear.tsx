@@ -1,6 +1,7 @@
 import React from "react"
 import "./Clear.scss"
 import { Link } from "react-router-dom"
+import { Credits } from "../credits/Credits"
 
 export const Clear = () => {
   return (
@@ -33,16 +34,6 @@ const ClearText = () => {
   )
 }
 
-const Credits = () => {
-  return (
-    <div className="credits">
-      <p>…</p>
-      <a href="../credits/" target="_blank">CREDITS</a>
-      <p>…</p>
-    </div>
-  )
-}
-
 const Postscript = () => {
   return (
     <div className="ps">
@@ -53,7 +44,7 @@ const Postscript = () => {
         益田市のこと、知っていただけたでしょうか。<br />
         少しでも興味を持っていただけたのなら、嬉しいです。<br />
         この形式についてですが、前々から憧れていた<br />
-        「Web謎」に、この機会を借りて挑戦してみた形です。<br />
+        「Web謎」に挑戦してみました。<br />
         私がWeb謎をやる切っ掛けになったのは<br />
         ぐずりあ(<a href="https://twitter.com/guzuria_vtuber" target="_blank">@guzuria_vtuber</a>)さんの
         「Quick+Lazy」でして、<br />
@@ -72,7 +63,7 @@ const Postscript = () => {
 const BackToTitle = () => {
   return (
     <div className="back">
-      <Link to="/masudashi-nazotoki/">トップへ戻る</Link>
+      <Link to="/">トップへ戻る</Link>
     </div>
   )
 }
