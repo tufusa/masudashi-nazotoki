@@ -1,8 +1,8 @@
 {
-  "name": "my-town",
+  "name": "masudashi-nazotoki",
   "private": true,
   "version": "0.0.0",
-  "homepage": "./",
+  "homepage": "/masudashi-nazotoki/",
   "type": "module",
   "scripts": {
     "dev": "vite",

@@ -72,7 +72,7 @@ const Postscript = () => {
 const BackToTitle = () => {
   return (
     <div className="back">
-      <Link to="/">トップへ戻る</Link>
+      <Link to="/masudashi-nazotoki/">トップへ戻る</Link>
     </div>
   )
 }

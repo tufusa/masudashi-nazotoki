@@ -50,7 +50,7 @@ class Quiz extends React.Component<QuizProps, QuizState> {
     if (this.props.index != 10 || this.info.a != input)
       button = <button onClick={onClick}>OK</button>
     else
-      button = <Link to="/clear"><button onClick={onClick}>OK</button></Link>
+      button = <Link to="/masudashi-nazotoki/clear"><button onClick={onClick}>OK</button></Link>
 
     return (
       <div className="input">
