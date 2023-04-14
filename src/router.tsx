@@ -15,7 +15,7 @@ const router = createBrowserRouter(
     </Route>
   ),
   {
-    basename: "/masudashi-nazotoki"
+    basename: "/masudashi-nazotoki/"
   }
 );
 

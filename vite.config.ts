@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   base: process.env.GITHUB_PAGES
-    ? "https://tufusa.github.io/masudashi-nazotoki"
+    ? "https://tufusa.github.io/masudashi-nazotoki/"
     : "/masudashi-nazotoki/",
   server: {
     open: '/masudashi-nazotoki/'

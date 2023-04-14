@@ -15,7 +15,7 @@ export const Clear = () => {
 const Header = () => {
   return (
     <header className="header">
-      <img src="../images/masuda_logo.png"/>
+      <img src="images/masuda_logo.png"/>
     </header>
   )
 }
@@ -23,7 +23,7 @@ const Header = () => {
 const ClearText = () => {
   return (
     <div className="text">
-      <img src="../images/clear.png" />
+      <img src="images/clear.png" />
       <h3 className="gratz">Congratulations!</h3>
       <p>あなたは全ての謎を解き明かした。</p>
       <Credits />
