@@ -1,0 +1,92 @@
+.start {
+  padding-top: 2rem;
+  align-items: center;
+  text-align: center;
+  white-space: nowrap;
+
+  img {
+    user-select: none;
+  }
+
+  h1, h2 {
+    font-weight: normal;
+  }
+  
+  .header {
+    img {
+      width: clamp(350px, 50%, 500px);
+      opacity: 0;
+      animation: fadein 1s forwards linear;
+    }
+  }
+
+  .contents {
+    margin-top: 3rem;
+  }
+
+  .masuda-info {
+    margin: 0 auto;
+    margin-top: 3rem;
+    width: fit-content;
+    line-height: 2rem;
+  }
+
+  .game-description {
+    margin-top: 2rem;
+    line-height: 2rem;
+
+    h3 {
+      margin-top: 1rem;
+      &::first-letter {
+        color: deepskyblue;
+      }
+    }
+
+    .rule {
+      strong {
+        font-style: normal;
+        font-weight: bold;
+      }
+    }
+  }
+
+  .gamestart {
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+    position: relative;
+    overflow: hidden;
+  
+    img {
+      width: 100%;
+      filter: brightness(100%);
+  
+      &:hover {
+        animation: maskout 0.4s forwards linear;
+      }
+    }
+  }
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes maskout {
+  to {
+    filter: brightness(110%);
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .App {
+    white-space: normal;
+  }
+}

@@ -1,0 +1,46 @@
+.Credits {
+  padding-top: 2rem;
+  align-items: center;
+  text-align: center;
+  white-space: nowrap;
+
+  img {
+    user-select: none;
+  }
+
+  h2, h3 {
+    margin-top: 1rem;
+    &::first-letter {
+      color: #55FF55;
+    }
+  }
+
+  .header {
+    img {
+      width: clamp(350px, 50%, 500px);
+      opacity: 0;
+      animation: fadein 1s forwards linear;
+    }
+  }
+
+  .text {
+    margin: 3rem auto;
+
+    p {
+      line-height: 2rem;
+    }
+
+    a {
+      color: #55FF55;
+    }
+  }
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,33 @@
+.Game {
+  margin: 2rem;
+  align-items: center;
+  text-align: center;
+  white-space: nowrap;
+
+  img {
+    user-select: none;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .Game {
+    margin: 0;
+  }
+}
+
+@media print {
+  .Game {
+    width: 210mm;
+    height: 297mm;
+    box-sizing: border-box;
+    margin: auto auto;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+    background-image: url(../images/q10-2.png) !important;
+    background-size: cover;
+
+    * {
+      display: none;
+    }
+  }
+}
