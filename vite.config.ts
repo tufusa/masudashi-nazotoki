@@ -9,7 +9,4 @@ export default defineConfig({
   server: {
     open: '/'
   },
-  build: {
-    outDir: 'docs'
-  }
 })
