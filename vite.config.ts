@@ -6,6 +6,6 @@ export default defineConfig({
   plugins: [react()],
   base: "./",
   server: {
-    open: './'
+    open: '/mashudashi-nazotoki/'
   },
 })
