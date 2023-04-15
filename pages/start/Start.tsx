@@ -53,7 +53,7 @@ function GameDescription() {
 
 function GameStart() {
   return (
-    <div className="gamestart">
+    <div className="game-start">
       <Link to="/play">
         <img src="images/masuda_start.png" />
       </Link>

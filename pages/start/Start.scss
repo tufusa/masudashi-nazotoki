@@ -50,7 +50,7 @@
     }
   }
 
-  .gamestart {
+  .game-start {
     width: 100%;
     height: fit-content;
     text-align: center;
@@ -86,7 +86,7 @@
 }
 
 @media screen and (max-width: 560px) {
-  .App {
+  .start {
     white-space: normal;
   }
 }
