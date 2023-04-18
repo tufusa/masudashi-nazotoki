@@ -40,26 +40,29 @@ class Quiz extends React.Component<QuizProps, QuizState> {
   Input = () => {
     const [input, setInput] = useState("")
     const inputRef = createRef<HTMLInputElement>()
+    const [mistake, setMistake] = useState(false)
     const onClick = (event: React.MouseEvent<HTMLButtonElement>) => {
       event.currentTarget.blur()
       inputRef.current!.blur()
-      this.Judge(input, () => { setInput("") })
+      this.Judge(input, () => {setInput(""); setMistake(true)})
     }
 
     let button: ReactElement
     if (this.props.index != 10 || this.info.a != input)
-      button = <button onClick={onClick}>OK</button>
+      button = <button onClick={onClick} className={this.state.isCleared ? "cleared" : ""}>OK</button>
     else
-      button = <Link to="/clear"><button onClick={onClick}>OK</button></Link>
-
+      button = <Link to="/clear"><button onClick={onClick} className={this.state.isCleared ? "cleared" : ""}>OK</button></Link>
+    
     return (
       <div className="input">
         <input
           value={input}
-          onChange={(event) => { setInput(event.target.value) }}
+          onChange={(event) => setInput(event.target.value)}
           readOnly={this.state.isCleared}
+          onAnimationEnd={() => setMistake(false)}
           spellCheck="false"
           ref={inputRef}
+          className={mistake ? "mistake" : ""}
         />
         {button}
       </div>
