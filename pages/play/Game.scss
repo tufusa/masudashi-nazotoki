@@ -21,12 +21,10 @@
     height: 297mm;
     box-sizing: border-box;
     margin: auto auto;
-    margin-bottom: 0;
     print-color-adjust: exact;
     -webkit-print-color-adjust: exact;
-    // background-image: url(../images/q10-2.png) !important;
+    background-image: url(../images/q10-2.png) !important;
     background-size: cover;
-    background-color: black;
 
     * {
       display: none;
