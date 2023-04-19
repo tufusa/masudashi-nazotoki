@@ -1,7 +1,7 @@
 import React from "react"
 import "./Clear.scss"
 import { Link } from "react-router-dom"
-import { Credits } from "../credits/Credits"
+import { Credits } from "../../components/credits/Credits"
 
 export const Clear = () => {
   return (

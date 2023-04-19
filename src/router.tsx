@@ -2,7 +2,6 @@ import { Route, createBrowserRouter, createRoutesFromElements } from "react-rout
 import Start from "../pages/start/Start";
 import Game from "../pages/play/Game";
 import { Clear } from "../pages/clear/Clear";
-import { Credits } from "../pages/credits/Credits";
 import { Root } from "./root";
 
 const router = createBrowserRouter(
@@ -11,7 +10,6 @@ const router = createBrowserRouter(
       <Route index element={<Start />} />
       <Route path="play" element={<Game />} />
       <Route path="clear" element={<Clear />} />
-      <Route path="credits" element={<Credits />} />
     </Route>
   ),
   {

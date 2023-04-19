@@ -1,4 +1,4 @@
-import React, { createRef, ReactElement, useState } from "react"
+import React, { createRef, useState } from "react"
 import { QuizInfo } from "./quiz-info"
 import { QuizInfoSource } from "./quiz-info-source"
 import "./quiz.scss"
@@ -23,7 +23,7 @@ class Quiz extends React.Component<QuizProps, QuizState> {
 
   render() {
     return (
-      <div className="quiz">
+      <div className="quiz" id={`quiz${this.props.index}`}>
         <this.Image path={this.info.p} />
         <this.Input />
         { this.state.isCleared && <this.Description /> }
@@ -44,15 +44,21 @@ class Quiz extends React.Component<QuizProps, QuizState> {
     const onClick = (event: React.MouseEvent<HTMLButtonElement>) => {
       event.currentTarget.blur()
       inputRef.current!.blur()
-      this.Judge(input, () => {setInput(""); setMistake(true)})
+      this.Judge(input, () => {
+        setInput("")
+        setMistake(true)
+      })
     }
 
-    let button: ReactElement
-    if (this.props.index != 10 || this.info.a != input)
-      button = <button onClick={onClick} className={this.state.isCleared ? "cleared" : ""}>OK</button>
-    else
-      button = <Link to="/clear"><button onClick={onClick} className={this.state.isCleared ? "cleared" : ""}>OK</button></Link>
-    
+    let button =
+      <button
+        onClick={onClick}
+        className={this.state.isCleared ? "cleared" : ""}
+      >OK</button>
+
+    if (this.props.index == 10 && this.info.a == input)
+      button = <Link to="/clear">{button}</Link>
+
     return (
       <div className="input">
         <input
