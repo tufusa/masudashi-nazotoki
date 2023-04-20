@@ -6,8 +6,6 @@ class Start extends React.Component<{}, {}> {
   constructor(props: any)
   {
     super(props)
-    const img_buf = new Image();
-    img_buf.src = "images/masuda_logo.png"
   }
 
   render() {

@@ -28,7 +28,7 @@ const ClearText = () => {
       <h3 className="gratz">Congratulations!</h3>
       <p>あなたは全ての謎を解き明かした。</p>
       <Credits />
-      <Clearers />
+      {/* <Clearers /> */}
       <Postscript />
       <BackToTitle />
       <Thanks />
