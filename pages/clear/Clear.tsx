@@ -2,6 +2,7 @@ import React from "react"
 import "./Clear.scss"
 import { Link } from "react-router-dom"
 import { Credits } from "../../components/credits/Credits"
+import { Clearers } from "../../components/clearers/Clearers"
 
 export const Clear = () => {
   return (
@@ -27,6 +28,7 @@ const ClearText = () => {
       <h3 className="gratz">Congratulations!</h3>
       <p>あなたは全ての謎を解き明かした。</p>
       <Credits />
+      <Clearers />
       <Postscript />
       <BackToTitle />
       <Thanks />

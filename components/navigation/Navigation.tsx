@@ -15,7 +15,7 @@ class Navigation extends React.Component<NavigationProps, {}> {
             return (
               <NavButton
                 index={index + 1}
-                isActive={index < this.props.currentQuiz}
+                currentQuiz={this.props.currentQuiz}
                 key={index}
               />
             )
