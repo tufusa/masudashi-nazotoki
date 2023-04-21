@@ -37,6 +37,7 @@
     width: 20%;
     height: 100%;
     vertical-align: middle;
+    user-select: none;
 
     &:hover {
       animation: buttonHover 0.3s forwards linear;

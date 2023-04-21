@@ -3,25 +3,28 @@
   width: 1em;
   height: 1em;
   border: solid 1px white;
+  transition: all 0.5s ease-out;
 
   &.cleared {
     border-color: deepskyblue;
-    transition: all 0.8s ease-out;
+  }
+
+  &:hover {
+    filter: brightness(70%);
   }
 
   .nav-button-inner {
     width: 100%;
     height: 100%;
     background-color: transparent;
+    transition: inherit;
 
     &.cleared {
       background-color: deepskyblue;
-      transition: all 0.8s ease-out;
     }
 
     &.current {
       background-color: white;
-      transition: all 0.5s ease-out;
     }
   }
 }

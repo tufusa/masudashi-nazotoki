@@ -3,6 +3,7 @@ import Quiz from "./quiz"
 import "./Game.scss"
 import { quizzesInfoSource } from "./quizzes-info-source";
 import Navigation from "../../components/navigation/Navigation"
+import Hint from "../../components/hint/Hint"
 
 class Game extends React.Component<{}, GameState> {
   constructor(props: any) {
@@ -29,6 +30,7 @@ class Game extends React.Component<{}, GameState> {
           quizCount={quizzesInfoSource.length}
           currentQuiz={this.state.clear + 1}
         />
+        <Hint currentQuiz={this.state.clear + 1} />
       </div>
     )
   }

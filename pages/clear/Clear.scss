@@ -67,6 +67,7 @@
       color: white;
       text-decoration: none;
       background-color: grey;
+      transition: all 0.1s ease-out;
 
       &:hover {
         background-color: #30EE30;
