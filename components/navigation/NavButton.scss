@@ -5,12 +5,18 @@
   border: solid 1px white;
   transition: all 0.5s ease-out;
 
-  &.cleared {
-    border-color: deepskyblue;
+  &.current {
+    &:hover {
+      filter: brightness(70%);
+    }
   }
 
-  &:hover {
-    filter: brightness(70%);
+  &.cleared {
+    border-color: deepskyblue;
+
+    &:hover {
+      filter: brightness(70%);
+    }
   }
 
   .nav-button-inner {
