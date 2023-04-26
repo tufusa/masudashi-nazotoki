@@ -6,7 +6,7 @@ import { Root } from "./root";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/root" element={<Root />}>
+    <Route path="/" element={<Root />}>
       <Route index element={<Start />} />
       <Route path="play" element={<Game />} />
       <Route path="clear" element={<Clear />} />
