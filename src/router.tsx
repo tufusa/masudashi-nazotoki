@@ -12,9 +12,6 @@ const router = createBrowserRouter(
       <Route path="clear" element={<Clear />} />
     </Route>
   ),
-  {
-    basename: "/masudashi-nazotoki/"
-  }
 );
 
 export default router
