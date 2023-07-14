@@ -62,7 +62,7 @@ class Start extends React.Component<{}, {}> {
     return (
       <div className="game-start">
         <Link to="/play">
-          <img src="images/masuda_start.png" />
+          <img src="images/masuda_start.webp" />
         </Link>
       </div>
     )
