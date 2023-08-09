@@ -3,8 +3,21 @@ import { Link } from 'react-router-dom';
 import { Credits } from 'components/credits/Credits';
 import logo from 'assets/images/masuda_logo.png';
 import clear from 'assets/images/clear.png';
+import { gameClear } from 'states/gameClear';
+import { useRecoilValue } from 'recoil';
+import { useNavigate } from 'react-router-dom';
+import { useEffect } from 'react';
 
 export const Clear = () => {
+  const isGameClear = useRecoilValue(gameClear);
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    if (!isGameClear) {
+      navigate('/');
+    }
+  }, []);
+
   return (
     <div className="Clear">
       <Header />

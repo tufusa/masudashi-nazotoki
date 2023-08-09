@@ -13,6 +13,7 @@ export default defineConfig({
       components: path.resolve(__dirname, 'src/components'),
       routes: path.resolve(__dirname, 'src/routes'),
       css: path.resolve(__dirname, 'src/css'),
+      states: path.resolve(__dirname, 'src/states'),
     },
   },
 });

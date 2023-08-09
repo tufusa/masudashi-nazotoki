@@ -23,6 +23,7 @@
       "components/*": ["src/components/*"],
       "routes/*": ["src/routes/*"],
       "css/*": ["src/css/*"],
+      "states/*": ["src/states/*"],
     }
   },
   "include": ["src"],
