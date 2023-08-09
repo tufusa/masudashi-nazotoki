@@ -5,9 +5,10 @@ import path from 'path';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: process.env.GITHUB_PAGES
-    ? 'https://tufusa.github.io/masudashi-nazotoki/'
-    : '/masudashi-nazotoki/',
+  // base: process.env.GITHUB_PAGES
+  //   ? 'https://tufusa.github.io/masudashi-nazotoki/'
+  //   : '/masudashi-nazotoki/',
+  base: '/masudashi-nazotoki/',
   server: {
     open: '/masudashi-nazotoki/',
   },
