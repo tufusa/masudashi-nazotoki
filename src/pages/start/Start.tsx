@@ -2,7 +2,7 @@ import React from 'react';
 import { Link, Outlet } from 'react-router-dom';
 import 'css/start/Start.scss';
 import logo from 'assets/images/masuda_logo.png';
-import start from 'assets/images/masuda_start.png';
+import start from 'assets/images/masuda_start.webp';
 
 class Start extends React.Component<{}, {}> {
   constructor(props: any) {
