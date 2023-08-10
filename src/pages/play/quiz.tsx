@@ -3,6 +3,8 @@ import { QuizInfo } from './quiz-info';
 import { QuizInfoSource } from './quiz-info-source';
 import 'css/play/quiz.scss';
 import { Link } from 'react-router-dom';
+import { useSetRecoilState } from 'recoil';
+import { gameClear } from 'states/gameClear';
 
 class Quiz extends React.Component<QuizProps, QuizState> {
   info: QuizInfo;
@@ -39,6 +41,8 @@ class Quiz extends React.Component<QuizProps, QuizState> {
     const [input, setInput] = useState('');
     const inputRef = createRef<HTMLInputElement>();
     const [mistake, setMistake] = useState(false);
+    const setGameClear = useSetRecoilState(gameClear);
+
     const onClick = (event: React.MouseEvent<HTMLButtonElement>) => {
       event.currentTarget.blur();
       inputRef.current!.blur();
@@ -54,7 +58,12 @@ class Quiz extends React.Component<QuizProps, QuizState> {
       </button>
     );
 
-    if (this.props.index == 10 && this.info.a == input) button = <Link to="/clear">{button}</Link>;
+    if (this.props.index == 10 && this.info.a == input)
+      button = (
+        <Link to="/clear" onClick={() => setGameClear(true)}>
+          {button}
+        </Link>
+      );
 
     return (
       <div className="input">
