@@ -16,19 +16,19 @@ dependencies:
     version: 18.3.1
   react-dom:
     specifier: ^18.2.0
-    version: 18.2.0(react@18.3.1)
+    version: 18.3.1(react@18.3.1)
   react-router:
     specifier: ^6.22.3
     version: 6.22.3(react@18.3.1)
   react-router-dom:
     specifier: ^6.23.0
-    version: 6.23.0(react-dom@18.2.0)(react@18.3.1)
+    version: 6.23.0(react-dom@18.3.1)(react@18.3.1)
   react-scroll:
     specifier: ^1.9.0
-    version: 1.9.0(react-dom@18.2.0)(react@18.3.1)
+    version: 1.9.0(react-dom@18.3.1)(react@18.3.1)
   recoil:
     specifier: ^0.7.7
-    version: 0.7.7(react-dom@18.2.0)(react@18.3.1)
+    version: 0.7.7(react-dom@18.3.1)(react@18.3.1)
   sass:
     specifier: ^1.76.0
     version: 1.76.0
@@ -42,7 +42,7 @@ devDependencies:
     version: 18.3.1
   '@types/react-dom':
     specifier: ^18.2.7
-    version: 18.2.7
+    version: 18.3.0
   '@types/react-scroll':
     specifier: ^1.8.10
     version: 1.8.10
@@ -739,8 +739,8 @@ packages:
     resolution: {integrity: sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==}
     dev: true
 
-  /@types/react-dom@18.2.7:
-    resolution: {integrity: sha512-GRaAEriuT4zp9N4p1i8BDBYmEyfo+xQ3yHjJU4eiK5NDa1RmUZG+unZABUTK4/Ox/M+GaHwb6Ow8rUITrtjszA==}
+  /@types/react-dom@18.3.0:
+    resolution: {integrity: sha512-EhwApuTmMBmXuFOikhQLIBUn6uFg81SwLMOAUgodJF14SOBOCMdU04gDoYi0WOJJHD144TL32z4yDqCW3dnkQg==}
     dependencies:
       '@types/react': 18.3.1
     dev: true
@@ -1074,14 +1074,14 @@ packages:
       react-is: 16.13.1
     dev: false
 
-  /react-dom@18.2.0(react@18.3.1):
-    resolution: {integrity: sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==}
+  /react-dom@18.3.1(react@18.3.1):
+    resolution: {integrity: sha512-5m4nQKp+rZRb09LNH59GM4BxTh9251/ylbKIbpe7TpGxfJ+9kv6BLkLBXIjjspbgbnIBNqlI23tRnTWT0snUIw==}
     peerDependencies:
-      react: ^18.2.0
+      react: ^18.3.1
     dependencies:
       loose-envify: 1.4.0
       react: 18.3.1
-      scheduler: 0.23.0
+      scheduler: 0.23.2
     dev: false
 
   /react-is@16.13.1:
@@ -1093,7 +1093,7 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /react-router-dom@6.23.0(react-dom@18.2.0)(react@18.3.1):
+  /react-router-dom@6.23.0(react-dom@18.3.1)(react@18.3.1):
     resolution: {integrity: sha512-Q9YaSYvubwgbal2c9DJKfx6hTNoBp3iJDsl+Duva/DwxoJH+OTXkxGpql4iUK2sla/8z4RpjAm6EWx1qUDuopQ==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
@@ -1102,7 +1102,7 @@ packages:
     dependencies:
       '@remix-run/router': 1.16.0
       react: 18.3.1
-      react-dom: 18.2.0(react@18.3.1)
+      react-dom: 18.3.1(react@18.3.1)
       react-router: 6.23.0(react@18.3.1)
     dev: false
 
@@ -1126,7 +1126,7 @@ packages:
       react: 18.3.1
     dev: false
 
-  /react-scroll@1.9.0(react-dom@18.2.0)(react@18.3.1):
+  /react-scroll@1.9.0(react-dom@18.3.1)(react@18.3.1):
     resolution: {integrity: sha512-mamNcaX9Ng+JeSbBu97nWwRhYvL2oba+xR2GxvyXsbDeGP+gkYIKZ+aDMMj/n20TbV9SCWm/H7nyuNTSiXA6yA==}
     peerDependencies:
       react: ^15.5.4 || ^16.0.0 || ^17.0.0 || ^18.0.0
@@ -1135,7 +1135,7 @@ packages:
       lodash.throttle: 4.1.1
       prop-types: 15.8.1
       react: 18.3.1
-      react-dom: 18.2.0(react@18.3.1)
+      react-dom: 18.3.1(react@18.3.1)
     dev: false
 
   /react@18.3.1:
@@ -1151,7 +1151,7 @@ packages:
     dependencies:
       picomatch: 2.3.1
 
-  /recoil@0.7.7(react-dom@18.2.0)(react@18.3.1):
+  /recoil@0.7.7(react-dom@18.3.1)(react@18.3.1):
     resolution: {integrity: sha512-8Og5KPQW9LwC577Vc7Ug2P0vQshkv1y3zG3tSSkWMqkWSwHmE+by06L8JtnGocjW6gcCvfwB3YtrJG6/tWivNQ==}
     peerDependencies:
       react: '>=16.13.1'
@@ -1165,7 +1165,7 @@ packages:
     dependencies:
       hamt_plus: 1.0.2
       react: 18.3.1
-      react-dom: 18.2.0(react@18.3.1)
+      react-dom: 18.3.1(react@18.3.1)
     dev: false
 
   /rollup@4.17.2:
@@ -1203,8 +1203,8 @@ packages:
       immutable: 4.3.2
       source-map-js: 1.2.0
 
-  /scheduler@0.23.0:
-    resolution: {integrity: sha512-CtuThmgHNg7zIZWAXi3AsyIzA3n4xx7aNyjwC2VJldO2LMVDhFK+63xGqq6CsJH4rTAt6/M+N4GhZiDYPx9eUw==}
+  /scheduler@0.23.2:
+    resolution: {integrity: sha512-UOShsPwz7NrMUqhR6t0hWjFduvOzbtv7toDH1/hIrfRNIDBnnBWd0CwJTGvTpngVlmwGCdP9/Zl/tVrDqcuYzQ==}
     dependencies:
       loose-envify: 1.4.0
     dev: false
