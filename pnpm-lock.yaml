@@ -22,7 +22,7 @@ importers:
         version: 18.3.1(react@18.3.1)
       react-router:
         specifier: ^6.22.3
-        version: 6.22.3(react@18.3.1)
+        version: 6.23.0(react@18.3.1)
       react-router-dom:
         specifier: ^6.23.0
         version: 6.23.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -342,10 +342,6 @@ packages:
 
   '@jridgewell/trace-mapping@0.3.25':
     resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
-
-  '@remix-run/router@1.15.3':
-    resolution: {integrity: sha512-Oy8rmScVrVxWZVOpEF57ovlnhpZ8CCPlnIIumVcV9nFdiSIrus99+Lw78ekXyGvVDlIsFJbSfmSovJUhCWYV3w==}
-    engines: {node: '>=14.0.0'}
 
   '@remix-run/router@1.16.0':
     resolution: {integrity: sha512-Quz1KOffeEf/zwkCBM3kBtH4ZoZ+pT3xIXBG4PPW/XFtDP7EGhtTiC2+gpL9GnR7+Qdet5Oa6cYSvwKYg6kN9Q==}
@@ -672,12 +668,6 @@ packages:
     peerDependencies:
       react: '>=16.8'
       react-dom: '>=16.8'
-
-  react-router@6.22.3:
-    resolution: {integrity: sha512-dr2eb3Mj5zK2YISHK++foM9w4eBnO23eKnZEDs7c880P6oKbrjz/Svg9+nxqtHQK+oMW4OtjZca0RqPglXxguQ==}
-    engines: {node: '>=14.0.0'}
-    peerDependencies:
-      react: '>=16.8'
 
   react-router@6.23.0:
     resolution: {integrity: sha512-wPMZ8S2TuPadH0sF5irFGjkNLIcRvOSaEe7v+JER8508dyJumm6XZB1u5kztlX0RVq6AzRVndzqcUh6sFIauzA==}
@@ -1046,8 +1036,6 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.1
       '@jridgewell/sourcemap-codec': 1.4.15
 
-  '@remix-run/router@1.15.3': {}
-
   '@remix-run/router@1.16.0': {}
 
   '@rollup/rollup-android-arm-eabi@4.17.2':
@@ -1341,11 +1329,6 @@ snapshots:
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
       react-router: 6.23.0(react@18.3.1)
-
-  react-router@6.22.3(react@18.3.1):
-    dependencies:
-      '@remix-run/router': 1.15.3
-      react: 18.3.1
 
   react-router@6.23.0(react@18.3.1):
     dependencies:
