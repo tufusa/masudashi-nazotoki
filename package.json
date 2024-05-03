@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "homepage": "./",
   "type": "module",
-  "packageManager": "pnpm@8.6.12",
+  "packageManager": "pnpm@9.0.6",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "path": "^0.12.7",
-    "pnpm": "^8.6.12",
+    "pnpm": "^9.0.0",
     "react": "^18.3.1",
     "react-dom": "^18.2.0",
     "react-router": "^6.22.3",
