@@ -7,12 +7,9 @@
   "packageManager": "pnpm@8.6.12",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build && rd docs /s /q && xcopy dist docs /E /Q /I > nul",
+    "build": "tsc && vite build",
     "preview": "vite preview",
-    "git": "git add . && git commit && git push",
-    "ruby": "ruby src/pages/play/source.rb",
-    "build-cloudflare": "tsc && vite build",
-    "build-vercel": "tsc && vite build"
+    "ruby": "ruby src/pages/play/source.rb"
   },
   "dependencies": {
     "path": "^0.12.7",
