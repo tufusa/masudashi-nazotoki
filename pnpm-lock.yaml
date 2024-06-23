@@ -50,7 +50,7 @@ importers:
         version: 4.3.1(vite@5.3.1(@types/node@20.14.6)(sass@1.77.6))
       typescript:
         specifier: ^5.0.0
-        version: 5.4.5
+        version: 5.5.2
       vite:
         specifier: ^5.2.10
         version: 5.3.1(@types/node@20.14.6)(sass@1.77.6)
@@ -706,8 +706,8 @@ packages:
     resolution: {integrity: sha512-65P7iz6X5yEr1cwcgvQxbbIw7Uk3gOy5dIdtZ4rDveLqhrdJP+Li/Hx6tyK0NEb+2GCyneCMJiGqrADCSNk8sQ==}
     engines: {node: '>=8.0'}
 
-  typescript@5.4.5:
-    resolution: {integrity: sha512-vcI4UpRgg81oIRUFwR0WSIHKt11nJ7SAVlYNIu+QpqeyXP+gpQJy/Z4+F0aGxSE4MqwjyXvW/TzgkLAx2AGHwQ==}
+  typescript@5.5.2:
+    resolution: {integrity: sha512-NcRtPEOsPFFWjobJEtfihkLCZCXZt/os3zf8nTxjVH3RvTSxjrCamJpbExGvYOF+tFHc3pA65qpdwPbzjohhew==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -1357,7 +1357,7 @@ snapshots:
     dependencies:
       is-number: 7.0.0
 
-  typescript@5.4.5: {}
+  typescript@5.5.2: {}
 
   undici-types@5.26.5: {}
 
