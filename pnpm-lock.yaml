@@ -31,7 +31,7 @@ importers:
         version: 0.7.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       sass:
         specifier: ^1.76.0
-        version: 1.80.2
+        version: 1.80.3
     devDependencies:
       '@types/node':
         specifier: ^20.12.9
@@ -47,13 +47,13 @@ importers:
         version: 1.8.10
       '@vitejs/plugin-react':
         specifier: ^4.2.1
-        version: 4.3.2(vite@5.4.9(@types/node@20.16.12)(sass@1.80.2))
+        version: 4.3.2(vite@5.4.9(@types/node@20.16.12)(sass@1.80.3))
       typescript:
         specifier: ^5.0.0
         version: 5.6.3
       vite:
         specifier: ^5.2.10
-        version: 5.4.9(@types/node@20.16.12)(sass@1.80.2)
+        version: 5.4.9(@types/node@20.16.12)(sass@1.80.3)
 
 packages:
 
@@ -730,8 +730,8 @@ packages:
     engines: {node: '>=18.0.0', npm: '>=8.0.0'}
     hasBin: true
 
-  sass@1.80.2:
-    resolution: {integrity: sha512-9wXY8cGBlUmoUoT+vwOZOFCiS+naiWVjqlreN9ar9PudXbGwlMTFwCR5K9kB4dFumJ6ib98wZyAObJKsWf1nAA==}
+  sass@1.80.3:
+    resolution: {integrity: sha512-ptDWyVmDMVielpz/oWy3YP3nfs7LpJTHIJZboMVs8GEC9eUmtZTZhMHlTW98wY4aEorDfjN38+Wr/XjskFWcfA==}
     engines: {node: '>=14.0.0'}
     hasBin: true
 
@@ -1174,14 +1174,14 @@ snapshots:
       '@types/prop-types': 15.7.13
       csstype: 3.1.3
 
-  '@vitejs/plugin-react@4.3.2(vite@5.4.9(@types/node@20.16.12)(sass@1.80.2))':
+  '@vitejs/plugin-react@4.3.2(vite@5.4.9(@types/node@20.16.12)(sass@1.80.3))':
     dependencies:
       '@babel/core': 7.25.7
       '@babel/plugin-transform-react-jsx-self': 7.25.7(@babel/core@7.25.7)
       '@babel/plugin-transform-react-jsx-source': 7.25.7(@babel/core@7.25.7)
       '@types/babel__core': 7.20.5
       react-refresh: 0.14.2
-      vite: 5.4.9(@types/node@20.16.12)(sass@1.80.2)
+      vite: 5.4.9(@types/node@20.16.12)(sass@1.80.3)
     transitivePeerDependencies:
       - supports-color
 
@@ -1405,7 +1405,7 @@ snapshots:
       '@rollup/rollup-win32-x64-msvc': 4.24.0
       fsevents: 2.3.3
 
-  sass@1.80.2:
+  sass@1.80.3:
     dependencies:
       '@parcel/watcher': 2.4.1
       chokidar: 4.0.1
@@ -1444,7 +1444,7 @@ snapshots:
     dependencies:
       inherits: 2.0.3
 
-  vite@5.4.9(@types/node@20.16.12)(sass@1.80.2):
+  vite@5.4.9(@types/node@20.16.12)(sass@1.80.3):
     dependencies:
       esbuild: 0.21.5
       postcss: 8.4.47
@@ -1452,6 +1452,6 @@ snapshots:
     optionalDependencies:
       '@types/node': 20.16.12
       fsevents: 2.3.3
-      sass: 1.80.2
+      sass: 1.80.3
 
   yallist@3.1.1: {}
