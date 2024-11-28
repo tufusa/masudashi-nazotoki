@@ -16,4 +16,11 @@ export default defineConfig({
       states: path.resolve(__dirname, 'src/states'),
     },
   },
+  css: {
+    preprocessorOptions: {
+      scss: {
+        api: 'modern-compiler',
+      },
+    },
+  },
 });
