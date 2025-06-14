@@ -22,7 +22,7 @@
     "sass": "^1.76.0"
   },
   "devDependencies": {
-    "@types/node": "^22.0.0",
+    "@types/node": "^24.0.0",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
     "@types/react-scroll": "^1.8.10",
