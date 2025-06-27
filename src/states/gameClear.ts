@@ -1,6 +1,3 @@
-import { atom } from 'recoil';
+import { atom } from 'jotai';
 
-export const gameClear = atom<boolean>({
-  key: 'gameClear',
-  default: false,
-});
+export const gameClearAtom = atom(false);

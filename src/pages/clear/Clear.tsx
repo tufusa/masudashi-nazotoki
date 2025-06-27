@@ -3,13 +3,13 @@ import { Link } from 'react-router-dom';
 import { Credits } from 'components/credits/Credits';
 import logo from 'assets/images/masuda_logo.png';
 import clear from 'assets/images/clear.png';
-import { gameClear } from 'states/gameClear';
-import { useRecoilValue } from 'recoil';
+import { gameClearAtom } from 'states/gameClear';
 import { useNavigate } from 'react-router-dom';
 import { useEffect } from 'react';
+import { useAtomValue } from 'jotai';
 
 export const Clear = () => {
-  const isGameClear = useRecoilValue(gameClear);
+  const isGameClear = useAtomValue(gameClearAtom);
   const navigate = useNavigate();
 
   useEffect(() => {
