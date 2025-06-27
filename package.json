@@ -19,7 +19,6 @@
     "react-router": "^7.0.0",
     "react-router-dom": "^7.0.0",
     "react-scroll": "^1.9.0",
-    "recoil": "^0.7.7",
     "sass": "^1.76.0"
   },
   "devDependencies": {
