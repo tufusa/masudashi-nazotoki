@@ -3,8 +3,8 @@ import { QuizInfo } from './quiz-info';
 import { QuizInfoSource } from './quiz-info-source';
 import 'css/play/quiz.scss';
 import { Link } from 'react-router-dom';
-import { useSetRecoilState } from 'recoil';
-import { gameClear } from 'states/gameClear';
+import { gameClearAtom } from 'states/gameClear';
+import { useSetAtom } from 'jotai';
 
 class Quiz extends React.Component<QuizProps, QuizState> {
   info: QuizInfo;
@@ -41,7 +41,7 @@ class Quiz extends React.Component<QuizProps, QuizState> {
     const [input, setInput] = useState('');
     const inputRef = createRef<HTMLInputElement>();
     const [mistake, setMistake] = useState(false);
-    const setGameClear = useSetRecoilState(gameClear);
+    const setGameClear = useSetAtom(gameClearAtom);
 
     const onClick = (event: React.MouseEvent<HTMLButtonElement>) => {
       event.currentTarget.blur();

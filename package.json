@@ -12,13 +12,13 @@
     "ruby": "ruby src/pages/play/source.rb"
   },
   "dependencies": {
+    "jotai": "^2.12.5",
     "path": "^0.12.7",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router": "^7.0.0",
     "react-router-dom": "^7.0.0",
     "react-scroll": "^1.9.0",
-    "recoil": "^0.7.7",
     "sass": "^1.76.0"
   },
   "devDependencies": {
