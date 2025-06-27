@@ -12,6 +12,7 @@
     "ruby": "ruby src/pages/play/source.rb"
   },
   "dependencies": {
+    "jotai": "^2.12.5",
     "path": "^0.12.7",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
