@@ -10,7 +10,7 @@ importers:
     dependencies:
       jotai:
         specifier: ^2.12.5
-        version: 2.16.2(@babel/core@7.28.5)(@babel/template@7.27.2)(@types/react@19.2.9)(react@19.2.4)
+        version: 2.16.2(@babel/core@7.28.5)(@babel/template@7.27.2)(@types/react@19.2.10)(react@19.2.4)
       path:
         specifier: ^0.12.7
         version: 0.12.7
@@ -38,10 +38,10 @@ importers:
         version: 25.0.10
       '@types/react':
         specifier: ^19.0.0
-        version: 19.2.9
+        version: 19.2.10
       '@types/react-dom':
         specifier: ^19.0.0
-        version: 19.2.3(@types/react@19.2.9)
+        version: 19.2.3(@types/react@19.2.10)
       '@types/react-scroll':
         specifier: ^1.8.10
         version: 1.8.10
@@ -567,8 +567,8 @@ packages:
   '@types/react-scroll@1.8.10':
     resolution: {integrity: sha512-RD4Z7grbdNGOKwKnUBKar6zNxqaW3n8m9QSrfvljW+gmkj1GArb8AFBomVr6xMOgHPD3v1uV3BrIf01py57daQ==}
 
-  '@types/react@19.2.9':
-    resolution: {integrity: sha512-Lpo8kgb/igvMIPeNV2rsYKTgaORYdO1XGVZ4Qz3akwOj0ySGYMPlQWa8BaLn0G63D1aSaAQ5ldR06wCpChQCjA==}
+  '@types/react@19.2.10':
+    resolution: {integrity: sha512-WPigyYuGhgZ/cTPRXB2EwUw+XvsRA3GqHlsP4qteqrnnjDrApbS7MxcGr/hke5iUoeB7E/gQtrs9I37zAJ0Vjw==}
 
   '@vitejs/plugin-react@5.1.2':
     resolution: {integrity: sha512-EcA07pHJouywpzsoTUqNh5NwGayl2PPVEJKUSinGGSxFGYn+shYbqMGBg6FXDqgXum9Ou/ecb+411ssw8HImJQ==}
@@ -1246,15 +1246,15 @@ snapshots:
     dependencies:
       undici-types: 7.16.0
 
-  '@types/react-dom@19.2.3(@types/react@19.2.9)':
+  '@types/react-dom@19.2.3(@types/react@19.2.10)':
     dependencies:
-      '@types/react': 19.2.9
+      '@types/react': 19.2.10
 
   '@types/react-scroll@1.8.10':
     dependencies:
-      '@types/react': 19.2.9
+      '@types/react': 19.2.10
 
-  '@types/react@19.2.9':
+  '@types/react@19.2.10':
     dependencies:
       csstype: 3.2.3
 
@@ -1353,11 +1353,11 @@ snapshots:
       is-extglob: 2.1.1
     optional: true
 
-  jotai@2.16.2(@babel/core@7.28.5)(@babel/template@7.27.2)(@types/react@19.2.9)(react@19.2.4):
+  jotai@2.16.2(@babel/core@7.28.5)(@babel/template@7.27.2)(@types/react@19.2.10)(react@19.2.4):
     optionalDependencies:
       '@babel/core': 7.28.5
       '@babel/template': 7.27.2
-      '@types/react': 19.2.9
+      '@types/react': 19.2.10
       react: 19.2.4
 
   js-tokens@4.0.0: {}
