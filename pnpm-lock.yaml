@@ -31,7 +31,7 @@ importers:
         version: 1.9.3(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
       sass:
         specifier: ^1.76.0
-        version: 1.101.3
+        version: 1.101.6
     devDependencies:
       '@types/node':
         specifier: ^25.0.0
@@ -47,13 +47,13 @@ importers:
         version: 1.8.10
       '@vitejs/plugin-react':
         specifier: ^6.0.0
-        version: 6.0.4(vite@8.1.5(@types/node@25.9.5)(sass@1.101.3))
+        version: 6.0.4(vite@8.1.5(@types/node@25.9.5)(sass@1.101.6))
       typescript:
         specifier: ^7.0.0
         version: 7.0.2
       vite:
         specifier: ^8.0.0
-        version: 8.1.5(@types/node@25.9.5)(sass@1.101.3)
+        version: 8.1.5(@types/node@25.9.5)(sass@1.101.6)
 
 packages:
 
@@ -640,8 +640,8 @@ packages:
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
 
-  sass@1.101.3:
-    resolution: {integrity: sha512-Z1lLHhtAII+dyLNIQB6JQTZMy7sDxk3f5NzbINRc9ks1P0HCGvSuKev0wUhULFpLSaHBIMZrcTs9WDQUZerrgA==}
+  sass@1.101.6:
+    resolution: {integrity: sha512-j8qYug9WuX19eU5sxJWQlbR8RYhKgXiOYgGjkJRkcW35c3neWtxPdcUW0saN6Od2L0aqEp0AmH9R/QeAxrffMQ==}
     engines: {node: '>=20.19.0'}
     hasBin: true
 
@@ -932,10 +932,10 @@ snapshots:
   '@typescript/typescript-win32-x64@7.0.2':
     optional: true
 
-  '@vitejs/plugin-react@6.0.4(vite@8.1.5(@types/node@25.9.5)(sass@1.101.3))':
+  '@vitejs/plugin-react@6.0.4(vite@8.1.5(@types/node@25.9.5)(sass@1.101.6))':
     dependencies:
       '@rolldown/pluginutils': 1.0.1
-      vite: 8.1.5(@types/node@25.9.5)(sass@1.101.3)
+      vite: 8.1.5(@types/node@25.9.5)(sass@1.101.6)
 
   chokidar@5.0.0:
     dependencies:
@@ -1120,7 +1120,7 @@ snapshots:
       '@rolldown/binding-win32-arm64-msvc': 1.1.5
       '@rolldown/binding-win32-x64-msvc': 1.1.5
 
-  sass@1.101.3:
+  sass@1.101.6:
     dependencies:
       chokidar: 5.0.0
       immutable: 5.1.9
@@ -1171,7 +1171,7 @@ snapshots:
     dependencies:
       inherits: 2.0.3
 
-  vite@8.1.5(@types/node@25.9.5)(sass@1.101.3):
+  vite@8.1.5(@types/node@25.9.5)(sass@1.101.6):
     dependencies:
       lightningcss: 1.32.0
       picomatch: 4.0.5
@@ -1181,4 +1181,4 @@ snapshots:
     optionalDependencies:
       '@types/node': 25.9.5
       fsevents: 2.3.3
-      sass: 1.101.3
+      sass: 1.101.6
