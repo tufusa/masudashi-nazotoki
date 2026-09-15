@@ -31,7 +31,7 @@ importers:
         version: 1.9.3(react-dom@19.3.0(react@19.3.0))(react@19.3.0)
       sass:
         specifier: ^1.76.0
-        version: 1.104.0
+        version: 1.104.1
     devDependencies:
       '@types/node':
         specifier: ^25.0.0
@@ -47,13 +47,13 @@ importers:
         version: 1.8.10
       '@vitejs/plugin-react':
         specifier: ^6.0.0
-        version: 6.1.1(vite@8.3.0(@types/node@25.9.6)(sass@1.104.0))
+        version: 6.1.1(vite@8.3.0(@types/node@25.9.6)(sass@1.104.1))
       typescript:
         specifier: ^7.0.0
         version: 7.0.2
       vite:
         specifier: ^8.0.0
-        version: 8.3.0(@types/node@25.9.6)(sass@1.104.0)
+        version: 8.3.0(@types/node@25.9.6)(sass@1.104.1)
 
 packages:
 
@@ -630,8 +630,8 @@ packages:
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
 
-  sass@1.104.0:
-    resolution: {integrity: sha512-btHMApW2bgolvClhRW8AlQJzgI9lUB3pPSofBQQT+E46GWvf9o0TVQ13SYv5riWZVFyPN+JNz3TKW9XhBlc10w==}
+  sass@1.104.1:
+    resolution: {integrity: sha512-yDA+1aIG3EHgN4V/BvuhCvu61FF6hEd4e+9DxikUm9U0CAGuvdIZ/UYy7qbOxjhbbWQraoyLlMuzdRGOSV5Bmw==}
     engines: {node: '>=20.19.0'}
     hasBin: true
 
@@ -748,7 +748,7 @@ snapshots:
       detect-libc: 2.1.2
       is-glob: 4.0.3
       node-addon-api: 7.1.1
-      picomatch: 4.0.5
+      picomatch: 4.0.7
     optionalDependencies:
       '@parcel/watcher-android-arm64': 2.6.0
       '@parcel/watcher-darwin-arm64': 2.6.0
@@ -887,10 +887,10 @@ snapshots:
   '@typescript/typescript-win32-x64@7.0.2':
     optional: true
 
-  '@vitejs/plugin-react@6.1.1(vite@8.3.0(@types/node@25.9.6)(sass@1.104.0))':
+  '@vitejs/plugin-react@6.1.1(vite@8.3.0(@types/node@25.9.6)(sass@1.104.1))':
     dependencies:
       '@rolldown/pluginutils': 1.0.1
-      vite: 8.3.0(@types/node@25.9.6)(sass@1.104.0)
+      vite: 8.3.0(@types/node@25.9.6)(sass@1.104.1)
 
   chokidar@5.0.0:
     dependencies:
@@ -1077,7 +1077,7 @@ snapshots:
       '@rolldown/binding-win32-arm64-msvc': 1.2.8
       '@rolldown/binding-win32-x64-msvc': 1.2.8
 
-  sass@1.104.0:
+  sass@1.104.1:
     dependencies:
       chokidar: 5.0.0
       immutable: 5.1.9
@@ -1125,7 +1125,7 @@ snapshots:
     dependencies:
       inherits: 2.0.3
 
-  vite@8.3.0(@types/node@25.9.6)(sass@1.104.0):
+  vite@8.3.0(@types/node@25.9.6)(sass@1.104.1):
     dependencies:
       lightningcss: 1.33.0
       picomatch: 4.0.7
@@ -1135,4 +1135,4 @@ snapshots:
     optionalDependencies:
       '@types/node': 25.9.6
       fsevents: 2.3.3
-      sass: 1.104.0
+      sass: 1.104.1
