@@ -47,13 +47,13 @@ importers:
         version: 1.8.10
       '@vitejs/plugin-react':
         specifier: ^6.0.0
-        version: 6.1.1(vite@8.3.1(@types/node@25.9.8)(sass@1.105.1))
+        version: 6.1.1(vite@8.3.2(@types/node@25.9.8)(sass@1.105.1))
       typescript:
         specifier: ^7.0.0
         version: 7.0.2
       vite:
         specifier: ^8.0.0
-        version: 8.3.1(@types/node@25.9.8)(sass@1.105.1)
+        version: 8.3.2(@types/node@25.9.8)(sass@1.105.1)
 
 packages:
 
@@ -659,8 +659,8 @@ packages:
   util@0.10.4:
     resolution: {integrity: sha512-0Pm9hTQ3se5ll1XihRic3FDIku70C+iHUdT/W926rSgHV5QgXsYbKZN8MSC3tJtSkhuROzvsQjAaFENRXr+19A==}
 
-  vite@8.3.1:
-    resolution: {integrity: sha512-/bvH9E9tmCXRGp2uXY3WbOldqpTwFkbha/8ANaEQ6VkxhH60KyqLwgZq6lG2y+4uT55x9+9eUHMpQ7uGnOCKjA==}
+  vite@8.3.2:
+    resolution: {integrity: sha512-SQr1x6W5vVSbROg7vsyXIaxK9b0G7zsT68acdWWRmnBUsgDieLCRG+Rep9WdZgcposvv/GSnr4GUUBqB3vXq6w==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
     peerDependencies:
@@ -888,10 +888,10 @@ snapshots:
   '@typescript/typescript-win32-x64@7.0.2':
     optional: true
 
-  '@vitejs/plugin-react@6.1.1(vite@8.3.1(@types/node@25.9.8)(sass@1.105.1))':
+  '@vitejs/plugin-react@6.1.1(vite@8.3.2(@types/node@25.9.8)(sass@1.105.1))':
     dependencies:
       '@rolldown/pluginutils': 1.0.1
-      vite: 8.3.1(@types/node@25.9.8)(sass@1.105.1)
+      vite: 8.3.2(@types/node@25.9.8)(sass@1.105.1)
 
   chokidar@5.0.0:
     dependencies:
@@ -1125,7 +1125,7 @@ snapshots:
     dependencies:
       inherits: 2.0.3
 
-  vite@8.3.1(@types/node@25.9.8)(sass@1.105.1):
+  vite@8.3.2(@types/node@25.9.8)(sass@1.105.1):
     dependencies:
       lightningcss: 1.33.0
       picomatch: 4.0.7
