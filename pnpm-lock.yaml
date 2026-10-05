@@ -35,7 +35,7 @@ importers:
     devDependencies:
       '@types/node':
         specifier: ^25.0.0
-        version: 25.9.8
+        version: 25.9.9
       '@types/react':
         specifier: ^19.0.0
         version: 19.2.18
@@ -47,13 +47,13 @@ importers:
         version: 1.8.10
       '@vitejs/plugin-react':
         specifier: ^6.0.0
-        version: 6.1.1(vite@8.3.2(@types/node@25.9.8)(sass@1.105.1))
+        version: 6.1.1(vite@8.3.2(@types/node@25.9.9)(sass@1.105.1))
       typescript:
         specifier: ^7.0.0
         version: 7.0.2
       vite:
         specifier: ^8.0.0
-        version: 8.3.2(@types/node@25.9.8)(sass@1.105.1)
+        version: 8.3.2(@types/node@25.9.9)(sass@1.105.1)
 
 packages:
 
@@ -244,8 +244,8 @@ packages:
   '@rolldown/pluginutils@1.0.1':
     resolution: {integrity: sha512-2j9bGt5Jh8hj+vPtgzPtl72j0yRxHAyumoo6TNfAjsLB04UtpSvPbPcDcBMxz7n+9CYB0c1GxQFxYRg2jimqGw==}
 
-  '@types/node@25.9.8':
-    resolution: {integrity: sha512-VfMrScDmMhUJQmd5hArdQnFvK0OIeD36uN2Va1FcpYaLB/BgkgM8Ulc50XtYISPMz7APJ30+N0T5EM0jlcdfRw==}
+  '@types/node@25.9.9':
+    resolution: {integrity: sha512-b4e2xxj/yMeT2hNlD6x7zNFiQK2Dlmkb9CQ6v3/1G2RezKN4YS2lcEv8lzGm1mhs4f2lM4yNAMI/zUDBZBBt7w==}
 
   '@types/react-dom@19.2.7':
     resolution: {integrity: sha512-I8bPpDLcHBv1qiIiXDCy71Rt8eQDKJP0sMSWJphDdAcdqiJ1sGpZamavoEIRZmYzjia9LuEb2HlYdDpmoENpvQ==}
@@ -812,7 +812,7 @@ snapshots:
 
   '@rolldown/pluginutils@1.0.1': {}
 
-  '@types/node@25.9.8':
+  '@types/node@25.9.9':
     dependencies:
       undici-types: 7.24.6
 
@@ -888,10 +888,10 @@ snapshots:
   '@typescript/typescript-win32-x64@7.0.2':
     optional: true
 
-  '@vitejs/plugin-react@6.1.1(vite@8.3.2(@types/node@25.9.8)(sass@1.105.1))':
+  '@vitejs/plugin-react@6.1.1(vite@8.3.2(@types/node@25.9.9)(sass@1.105.1))':
     dependencies:
       '@rolldown/pluginutils': 1.0.1
-      vite: 8.3.2(@types/node@25.9.8)(sass@1.105.1)
+      vite: 8.3.2(@types/node@25.9.9)(sass@1.105.1)
 
   chokidar@5.0.0:
     dependencies:
@@ -1125,7 +1125,7 @@ snapshots:
     dependencies:
       inherits: 2.0.3
 
-  vite@8.3.2(@types/node@25.9.8)(sass@1.105.1):
+  vite@8.3.2(@types/node@25.9.9)(sass@1.105.1):
     dependencies:
       lightningcss: 1.33.0
       picomatch: 4.0.7
@@ -1133,6 +1133,6 @@ snapshots:
       rolldown: 1.2.11
       tinyglobby: 0.2.17
     optionalDependencies:
-      '@types/node': 25.9.8
+      '@types/node': 25.9.9
       fsevents: 2.3.3
       sass: 1.105.1
