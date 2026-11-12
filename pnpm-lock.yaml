@@ -168,7 +168,7 @@ importers:
     dependencies:
       jotai:
         specifier: ^3.0.0
-        version: 3.0.1(@types/react@19.3.0)(react@19.3.1)
+        version: 3.0.2(@types/react@19.3.0)(react@19.3.1)
       path:
         specifier: ^0.12.7
         version: 0.12.7
@@ -598,8 +598,8 @@ packages:
     resolution: {integrity: sha512-xelSayHH36ZgE7ZWhli7pW34hNbNl8Ojv5KVmkJD4hBdD3th8Tfk9vYasLM+mXWOZhFkgZfxhLSnrwRr4elSSg==}
     engines: {node: '>=0.10.0'}
 
-  jotai@3.0.1:
-    resolution: {integrity: sha512-6tS7wY9otdiNp26Wqb/1ds3OuVJVoV+tJlN4hpLrYmfFf/t9bauVt+zKBNSpS5qSl5h6GieVQ+OknVraZX+udQ==}
+  jotai@3.0.2:
+    resolution: {integrity: sha512-1h+H6BQN+D048zv8hRGVeNxghxRLFZCB+l2WhFe7RhRiF0JlC8516G2BtRUXhPvMQTGB9OHst2N/BW9aNpp5aA==}
     engines: {node: '>=22.12.0'}
     peerDependencies:
       '@types/react': '>=18.0.0'
@@ -1082,7 +1082,7 @@ snapshots:
       is-extglob: 2.1.1
     optional: true
 
-  jotai@3.0.1(@types/react@19.3.0)(react@19.3.1):
+  jotai@3.0.2(@types/react@19.3.0)(react@19.3.1):
     optionalDependencies:
       '@types/react': 19.3.0
       react: 19.3.1
